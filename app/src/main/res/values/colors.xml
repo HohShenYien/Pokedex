@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <string-array name="pokedexColorCode">
+        <!-- Red -->
+        <item>#f5b7b1</item>
+        <!-- Blue -->
+        <item>#aed6f1</item>
+        <!-- Yellow -->
+        <item>#fff9c4</item>
+        <!-- Green -->
+        <item>#d5f5e3</item>
+        <!-- Black -->
+        <item>#424242</item>
+        <!-- Brown -->
+        <item>#d7ccc8</item>
+        <!-- Purple -->
+        <item>#e1bee7</item>
+        <!-- Gray -->
+        <item>#d6dbdf</item>
+        <!-- White -->
+        <item>#ffffff</item>
+        <!-- Pink -->
+        <item>#f8bbd0</item>
+    </string-array>
+    <string-array name="pokedexColorCodeSecondary">
+        <!-- Red -->
+        <item>#e74c3c</item>
+        <!-- Blue -->
+        <item>#d4e6f1</item>
+        <!-- Yellow -->
+        <item>#ffee58</item>
+        <!-- Green -->
+        <item>#58d68d</item>
+        <!-- Black -->
+        <item>#d5d8dc</item>
+        <!-- Brown -->
+        <item>#795548</item>
+        <!-- Purple -->
+        <item>#ba68c8</item>
+        <!-- Gray -->
+        <item>#85929e</item>
+        <!-- White -->
+        <item>#fae5d3</item>
+        <!-- Pink -->
+        <item>#f06292</item>
+    </string-array>
+    <string-array name="typeColor">
+        <!-- normal -->
+        <item>#A8A878</item>
+        <!-- fire -->
+        <item>#F08030</item>
+        <!-- fighting -->
+        <item>#C03028</item>
+        <!-- water -->
+        <item>#6890F0</item>
+        <!-- flying -->
+        <item>#A890F0</item>
+        <!-- grass -->
+        <item>#78C850</item>
+        <!-- poison -->
+        <item>#A040A0</item>
+        <!-- electric -->
+        <item>#F8D030</item>
+        <!-- ground -->
+        <item>#E0C068</item>
+        <!-- psychic -->
+        <item>#F85888</item>
+        <!-- rock -->
+        <item>#B8A038</item>
+        <!-- ice -->
+        <item>#98D8D8</item>
+        <!-- bug -->
+        <item>#A8B820</item>
+        <!-- dragon -->
+        <item>#7038F8</item>
+        <!-- ghost -->
+        <item>#705898</item>
+        <!-- dark -->
+        <item>#705848</item>
+        <!-- steel -->
+        <item>#B8B8D0</item>
+        <!-- fairy -->
+        <item>#EE99AC</item>
+
+    </string-array>
+    <string-array name="typeStrokeColor">
+        <!-- normal -->
+        <item>#767655</item>
+        <!-- fire -->
+        <item>#A75B24</item>
+        <!-- fighting -->
+        <item>#7D1F1A</item>
+        <!-- water -->
+        <item>#9DB7F5</item>
+        <!-- flying -->
+        <item>#7162A1</item>
+        <!-- grass -->
+        <item>#4E8234</item>
+        <!-- poison -->
+        <item>#763576</item>
+        <!-- electric -->
+        <item>#A1871F</item>
+        <!-- ground -->
+        <item>#A28C50</item>
+        <!-- psychic -->
+        <item>#A13959</item>
+        <!-- rock -->
+        <item>#786824</item>
+        <!-- ice -->
+        <item>#638D8D</item>
+        <!-- bug -->
+        <item>#717C17</item>
+        <!-- dragon -->
+        <item>#4924A1</item>
+        <!-- ghost -->
+        <item>#4C3C67</item>
+        <!-- dark -->
+        <item>#504035</item>
+        <!-- steel -->
+        <item>#818191</item>
+        <!-- fairy -->
+        <item>#9B6470</item>
+
+    </string-array>
+</resources>

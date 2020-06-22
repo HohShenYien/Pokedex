@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="version">Alpha</string>
+    <string-array name="Generations">
+        <item>Generations of pokemon to browse</item>
+        <item>Generation I</item>
+        <item>Generation II</item>
+        <item>Generation III</item>
+        <item>Generation IV</item>
+        <item>Generation V</item>
+        <item>Generation VI</item>
+        <item>Generation VII</item>
+    </string-array>
+    <string-array name="stats_name">
+        <item>hp</item>
+        <item>attack</item>
+        <item>defense</item>
+        <item>special-attack</item>
+        <item>special-defense</item>
+        <item>speed</item>
+    </string-array>
+    <string name="me">Made by Shen Yien</string>
+</resources>

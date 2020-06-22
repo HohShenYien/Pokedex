@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+    <!-- Background image source:https://www.deviantart.com/19sharkytheshark19/art/Pokemon-Starters-Phone-Wallpaper-770235488-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pokedex"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/titleTxt"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTxt"
+        android:id="@+id/relative"
+        >
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            app:srcCompat="@drawable/ic_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#b3b6b7"
+            android:onClick="load_image"
+            android:layout_toRightOf="@id/userImg"
+            android:layout_marginLeft="-50dp"
+            android:layout_marginTop="120dp"
+            android:layout_centerVertical="false"
+            android:id="@+id/fab"
+
+            />
+        <ImageView
+            android:layout_width="187dp"
+            android:layout_height="180dp"
+            android:src="@drawable/avatardefault"
+            android:layout_centerHorizontal="true"
+
+
+            android:id="@+id/userImg"
+            />
+    <!-- Default user icon source: https://icon-icons.com/icon/avatar-default-user/92824-->
+    </RelativeLayout>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_below="@id/relative"
+        android:layout_centerHorizontal="true"
+        android:textColor=" #99a3a4 "
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="3dp"
+        android:inputType="text"
+        android:id="@+id/user_nameTxt"
+        android:selectAllOnFocus="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:textColor=" #99a3a4 "
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="3dp"
+        android:inputType="numberDecimal"
+        android:id="@+id/numPokemonTxt"
+        android:selectAllOnFocus="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/user_nameTxt"
+        android:layout_marginVertical="30dp"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textStyle="bold"
+        android:layout_below="@id/numPokemonTxt"
+        android:layout_marginTop="-30dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numPokemonTxt"
+        android:layout_marginTop="-20dp">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:paddingEnd="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+<!-- source of dropdown arrow image: https://www.pngitem.com/middle/iwRiohT_index-search-box-drop-down-dropdown-arrow-gif/-->
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="45dp"
+            android:layout_toRightOf="@id/spinner"
+            android:layout_marginLeft="-35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="97dp"
+            android:src="@mipmap/arrow" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Start"
+        android:background="@drawable/custom_button1"
+        android:layout_above="@id/caughtBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/startBtn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Pokemon Caught"
+        android:background="@drawable/custom_button2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/caughtBtn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/me"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fff"/>
+
+
+
+
+
+
+</RelativeLayout>

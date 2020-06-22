@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/custom_grid_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:id="@+id/grid_item"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="001"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/idTxt"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/pokemonImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginVertical="3dp"
+        android:layout_below="@id/idTxt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/pokemonNameTxt"
+        android:layout_below="@id/pokemonImg"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

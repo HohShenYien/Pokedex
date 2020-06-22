@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="generations_pokemon">
+        <item>0</item>
+        <item>151</item>
+        <item>100</item>
+        <item>135</item>
+        <item>107</item>
+        <item>156</item>
+        <item>72</item>
+        <item>86</item>
+    </integer-array>
+</resources>
