@@ -3,6 +3,8 @@ This is considered as my first full project on Android Studio. I've learnt many 
 as simple as creating adapter, xml layout, intent, using local folder, SharedPreferences, Json data, to using Volley
 effectively, creating databases and many more! Overall I've spent around 1 week on this project
 
+* Version: Alpha
+
 **Features**
 * Able to set your own username and profile picture that'll be saved.
 * Browse up to 7 generations and 800 Pokemons!
@@ -30,4 +32,4 @@ effectively, creating databases and many more! Overall I've spent around 1 week 
 **Possible Improvements in the future versions**
 * Add note feature in info activity
 * Adding a bgm
-*Adding details of date and time caught the pokemon
+* Adding details of date and time caught the pokemon
