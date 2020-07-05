@@ -16,9 +16,9 @@ effectively, creating databases and many more! Overall I've spent around 1 week 
 
 **Preview**
 
-![screenshot_1](https://github.com/HohShenYien/Pokedex/blob/master/preview_image/Screenshot_20200622-183303.jpg)
-![screenshot_2](https://github.com/HohShenYien/Pokedex/blob/master/preview_image/Screenshot_20200622-183310.jpg)
-![screenshot_3](https://github.com/HohShenYien/Pokedex/blob/master/preview_image/Screenshot_20200622-183321.jpg)
+<img src = https://github.com/HohShenYien/Pokedex/blob/master/preview_image/Screenshot_20200622-183303.jpg width="300" height="600"/>
+<img src = https://github.com/HohShenYien/Pokedex/blob/master/preview_image/Screenshot_20200622-183310.jpg width="300" height="600"/>
+<img src = https://github.com/HohShenYien/Pokedex/blob/master/preview_image/Screenshot_20200622-183321.jpg width="300" height="600"/>
 
 **Sources**
 * Main source to download json file from: https://pokeapi.co/
